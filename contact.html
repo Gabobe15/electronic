@@ -39,10 +39,25 @@
       input[type="submit"]:hover {
         background-color: #291ef0;
       }
-
-      div {
-        border-radius: 5px;
+      
+      footer{
+        background-color: #8385ff;
         padding: 20px;
+        margin-top:20px;
+      }
+      
+      footer>section{
+        display: flex;
+        justify-content: space-between;
+      }
+
+       footer>section>div:last-child{
+        display: flex;
+        justify-content: space-between;
+      }
+      .year{
+       display: flex;
+       justify-content: center;
       }
     </style>
   </head>
@@ -61,10 +76,16 @@
           <li><a href="signin.html">Sing in</a></li>
         </ul>
       </div>
-      <div>
-        <li><a href="#">facebook</a></li>
-        <li><a href="#">twitter</a></li>
-        <li><a href="#">instagram</a></li>
+       <div>
+        <li>
+          <a href="#"><img src="images/icons/fb.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/icons/tw.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/icons/ig.png" alt="" /></a>
+        </li>
       </div>
     </nav>
     <main class="contact">
@@ -116,5 +137,29 @@
         >
       </section>
     </main>
+    <footer>
+      <section>
+        <div>
+          <p>Contact: +254 7234 87673</p>
+          <p>Location: Madina Mall</p>
+          <p>Email: alhidaya@gmail.com</p>
+        </div>
+        <div>
+          <li>
+            <a href="#"><img src="images/icons/fb.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icons/tw.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/icons/ig.png" alt="" /></a>
+          </li>
+        </div>
+      </section>
+      <div class="year">
+       <p> &copy; <span id="year"></span> copyright. All right reserved for Al-Hidaya electronics</p>
+      </div>
+    </footer>
   </body>
+  <script src="main.js"></script>
 </html>
