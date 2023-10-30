@@ -1,0 +1,161 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>div:first-child{
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    /* flex: 1; */
+}
+
+nav>div{
+    display: flex;
+}
+
+li{
+    margin: 0 20px;
+}
+
+
+/* homepage  */
+.homepage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage>section>h2{
+    font-size: 60px;
+}
+.homepage>section>p{
+    font-size: 32px;
+    width: 500px;
+}
+.hp-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+    /* border: 3px solid #000; */
+    border-radius: 30px;
+    
+}
+
+section>article{
+    display: flex;
+}
+
+/* sign in page  */
+.sign-in{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    /* margin-top: 10%; */
+    margin-top: 100px;
+}
+
+
+/* links  */
+.links{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+/* contact  */
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact>section{
+    flex-basis: 50%;
+}
+
+/* shopping cart  */
+.shopping-cart{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+.shopping-cart>section:first-child{
+    flex-basis: 70%;
+}
+.shopping-cart>section:last-child{
+    flex-basis: 30%;
+}
+
+.totol-container{
+    background-color: rgb(162, 156, 217);
+    margin: 0 80px 0 50px;
+    border-radius: 30px;
+}
+
+.prod-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 156, 217);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+.prod-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.prod-text>p{
+    margin: 0 20px;
+}
+
+.prod-img>img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: fit;
+}
+
+.rem-btn{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* checkout  */
+.check-price{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 50px;    
+}
+
+.checkout-btn{
+    background-color: blue;
+    margin: 10px 50px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.checkout-btn>a{
+  color: white;
+}
